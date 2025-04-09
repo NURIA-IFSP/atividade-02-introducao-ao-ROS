@@ -29,7 +29,7 @@ def spawn_turtle():
         spawn_turtle = rospy.ServiceProxy('/spawn', Spawn)
         
 
-            # Gera um número aleatório entre 0 e 11
+        # Gera um número aleatório entre 0 e 11
         x = random.uniform(0, 11)
         y = random.uniform(0, 11)
         theta = random.uniform(-pi, pi)

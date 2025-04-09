@@ -10,7 +10,7 @@ Autor: Luiz C M Oliveira
 # Import the Python library for ROS
 import rospy
 
-# Importa as mensagens do tipo Twist e Pose2D do pacote geometry_msgs
+# Importa as mensagens do tipo Pose2D do pacote geometry_msgs
 from geometry_msgs.msg import Pose2D
 
 # Importa a biblioteca random para numeros aleatorios
